@@ -18,4 +18,6 @@ The input file reut2-000.sgm is an example of messy data:
  - A mix of "<" and "&lt;"s in the BODY elements
  - Misspelled words, such as "Preesident Nixon"
  
-This program is able to handle such messy data. 
+This program is able to handle such messy data.
+
+License: GNU General Public License, version 2
