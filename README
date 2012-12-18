@@ -1,0 +1,21 @@
+This program shows how to perform the Named Entity Recognition (NER)
+using Stanford CoreNLP on the Reuters-21578 corpus.
+
+Author: Beibei Yang (byang1@cs.uml.edu)
+Last Modified: 12/18/2012
+
+Given a text file as input (arg[0]), the program recognizes people names 
+and locations, and counts their occurrences.
+
+Only a fragment of the Reuters-21578 corpus is included. To download the
+full corpus go to:
+	http://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html
+	
+The input file reut2-000.sgm is an example of messy data:
+
+ - DOCTYPE lewis.dtd does not fit the sgm data
+ - Special characters such as "&#3;" gives org.xml.sax.SAXParseException
+ - A mix of "<" and "&lt;"s in the BODY elements
+ - Misspelled words, such as "Preesident Nixon"
+ 
+This program is able to handle such messy data. 
