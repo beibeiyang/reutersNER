@@ -111,7 +111,7 @@ public class NER {
 
 		} else {
 			String s1 = "Good afternoon Beibei Yang, how are you today?";
-			String s2 = "I'm from EMC Education Services, which is located in Franklin MA USA.";
+			String s2 = "I'm from EMC. Its headquarter is in Hopkinton MA USA.";
 			System.out.println(classifier.classifyToString(s1));
 			System.out.println(classifier.classifyToString(s2));
 			System.out.println(classifier.classifyWithInlineXML(s1));
